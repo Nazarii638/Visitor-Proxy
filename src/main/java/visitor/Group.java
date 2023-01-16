@@ -25,6 +25,10 @@ public class Group<T> extends Task<T> {
             task.freeze();
         }
     }
+    
+    @Override
+    public void stamp(Visitor<T> visitor) {
+    }
 
     @Override
     public void apply(T arg) {
