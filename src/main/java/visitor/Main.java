@@ -10,6 +10,6 @@ public class Main {
         Signature<Integer> s3 = new Signature<>(x -> System.out.println(x * x * x));
         group.addTask(nestedGroup).addTask(s3);
         group.apply(10);
-        s1.getHeader("groups");
+        //s1.getHeader("groups");
     }
 }
